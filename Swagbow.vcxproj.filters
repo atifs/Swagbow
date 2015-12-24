@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Hooking">
+      <UniqueIdentifier>{fe036329-a5f9-44f9-8e9f-e3966afdfe3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hooking">
+      <UniqueIdentifier>{fde01c1a-da28-4420-af75-35a5ea1ce44f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chatango">
+      <UniqueIdentifier>{d4efac0f-492e-4d56-a329-497412da8f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Chatango">
+      <UniqueIdentifier>{13a1a9b1-a4df-4326-a24e-32c84ca80ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\String">
+      <UniqueIdentifier>{1c46211f-d495-41bd-9790-694ef5ff662d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\String">
+      <UniqueIdentifier>{a1fca50a-fe90-44a8-981b-c083203a8946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structures">
+      <UniqueIdentifier>{aff6bc21-fcd1-4b07-90ad-1cc45bad8ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{429e9df8-440f-4333-8ba7-9e8370dbb83e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Web">
+      <UniqueIdentifier>{9611c41e-45a9-456a-803f-689e791dc84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Web">
+      <UniqueIdentifier>{6ff1cb6b-52ef-4354-99b9-4522d0ecba72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="detour.cpp">
+      <Filter>Source Files\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="msgparser.cpp">
+      <Filter>Source Files\Chatango</Filter>
+    </ClCompile>
+    <ClCompile Include="strextended.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="url_encode.cpp">
+      <Filter>Source Files\Web</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="detour.h">
+      <Filter>Header Files\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="msgparser.h">
+      <Filter>Header Files\Chatango</Filter>
+    </ClInclude>
+    <ClInclude Include="strextended.h">
+      <Filter>Header Files\String</Filter>
+    </ClInclude>
+    <ClInclude Include="circularlist.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="mathparser.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>Header Files\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="url_encode.h">
+      <Filter>Header Files\Web</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
